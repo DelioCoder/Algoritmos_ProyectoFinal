@@ -13,3 +13,9 @@ Metodos de busqueda:
 
 - Secuencial
 - Binaria
+
+Estructura de Datos:
+
+- Listas Enlazadas
+- Colas
+- Pilas
