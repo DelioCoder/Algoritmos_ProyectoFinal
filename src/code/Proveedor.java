@@ -1,17 +1,26 @@
 package code;
 public class Proveedor {
-    private String codigo;
+    private int codigo;
     private String nombre;
     private String telefono;
     private String email;
 
+    public Proveedor() {
+    }
     
-    //Metodos Get y Set
-    public String getCodigo() {
+    public Proveedor(int codigo, String nombre, String telefono, String email) {
+        this.codigo = codigo;
+        this.nombre = nombre;
+        this.telefono = telefono;
+        this.email = email;
+    }
+
+    public int getCodigo() {
         return codigo;
     }
 
-    public void setCodigo(String codigo) {
+    //Metodos Get y Set
+    public void setCodigo(int codigo) {    
         this.codigo = codigo;
     }
 
@@ -37,6 +46,11 @@ public class Proveedor {
 
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    @Override
+    public String toString() {
+        return "Proveedor{" + "codigo=" + codigo + ", nombre=" + nombre + ", telefono=" + telefono + ", email=" + email + '}';
     }
     
     

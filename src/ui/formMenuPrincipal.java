@@ -3479,7 +3479,7 @@ public class formMenuPrincipal extends javax.swing.JFrame {
     //<Buttom>Modificar; permitira realizar cambios y se 
     //guardara en la tabla
     public void modificarProveedor() {
-        String Codigo = txtCodigoProv.getText();
+        int Codigo = Integer.parseInt(txtCodigoProv.getText());
         String Nombre = txtNombreProv.getText();
         String Telefono = txtTelefonoProv.getText();
         String Email = txtEmailProv.getText();
