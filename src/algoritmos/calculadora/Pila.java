@@ -1,4 +1,4 @@
-package algoritmos.productos.pila;
+package algoritmo.pilas;
 
 import javax.swing.JOptionPane;
 
