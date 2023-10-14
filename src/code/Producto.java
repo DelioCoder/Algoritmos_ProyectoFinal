@@ -1,7 +1,7 @@
 package code;
 
 public class Producto {
-    private String codigo;
+    private int codigo;
     private String nombre;
     private String descripcion;
     private int stock;
@@ -12,7 +12,7 @@ public class Producto {
         
     }
     
-    public Producto(String codigo, String nombre, String descripcion, int stock, double precio, String categoria) {
+    public Producto(int codigo, String nombre, String descripcion, int stock, double precio, String categoria) {
         this.codigo = codigo;
         this.nombre = nombre;
         this.descripcion = descripcion;
@@ -21,14 +21,14 @@ public class Producto {
         this.categoria = categoria;
     }
 
-    public String getCodigo() {
+    public int getCodigo() {
         return codigo;
     }
 
-    public void setCodigo(String codigo) {
+    public void setCodigo(int codigo) {
         this.codigo = codigo;
     }
-
+    
     public String getNombre() {
         return nombre;
     }
